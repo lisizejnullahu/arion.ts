@@ -1,0 +1,21 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+body {
+  @apply font-sans;
+}
+
+header,
+footer {
+  @apply bg-gray-800;
+  @apply p-4 text-white;
+}
+
+main {
+  @apply container mx-auto p-4;
+}
+
+a {
+  @apply text-blue-500 hover:underline;
+}
